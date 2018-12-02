@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_file_name_format" translatable="false">
+        <item>yy_MM_dd_HH_mm_ss</item>
+        <item>yyyy_MM_dd_HH_mm_ss</item>
+        <item>yy_dd_MM_HH_mm_ss</item>
+        <item>yyyy_dd_MM_HH_mm_ss</item>
+        <item>dd_MM_yy_HH_mm_ss</item>
+        <item>dd_MM_yyyy_HH_mm_ss</item>
+        <item>MM_dd_yy_HH_mm_ss</item>
+        <item>MM_dd_yyyy_HH_mm_ss</item>
+
+        <item>yyMMdd_HHmmss</item>
+        <item>yyyyMMdd_HHmmss</item>
+        <item>yyddMM_HHmmss</item>
+        <item>yyyyddMM_HHmmss</item>
+        <item>ddMMyy_HHmmss</item>
+        <item>ddMMyyyy_HHmmss</item>
+        <item>MMddyy_HHmmss</item>
+        <item>MMddyyyy_HHmmss</item>
+
+        <item>yy-MM-dd_HH-mm-ss</item>
+        <item>yyyy-MM-dd_HH-mm-ss</item>
+        <item>yy-dd-MM_HH-mm-ss</item>
+        <item>yyyy-dd-MM_HH-mm-ss</item>
+        <item>dd-MM-yy_HH-mm-ss</item>
+        <item>dd-MM-yyyy_HH-mm-ss</item>
+        <item>MM-dd-yy_HH-mm-ss</item>
+        <item>MM-dd-yyyy_HH-mm-ss</item>
+    </string-array>
+
+</resources>

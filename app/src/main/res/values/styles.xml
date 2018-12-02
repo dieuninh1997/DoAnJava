@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--Dialog style-->
+    <style name="MyAlertDialogAppCompatStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTitleStyle">@style/TitleDialogTextStyle</item>
+    </style>
+
+    <!--Title dialog style-->
+    <style name="TitleDialogTextStyle" parent="Base.DialogWindowTitle.AppCompat">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--base wrap content style-->
+    <style name="BaseWrapContentStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--text view video info style-->
+    <style name="TextViewVideoInfoStyle" parent="BaseWrapContentStyle">
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--image button style-->
+    <style name="ImageButtonStyle" parent="BaseWrapContentStyle">
+        <item name="android:minWidth">56dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <!--button text style-->
+    <style name="BaseFillWidthStyle.ButtonTextView" parent="BaseFillWidthStyle">
+        <item name="android:minHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/drawable_margin</item>
+        <item name="android:paddingStart">@dimen/text_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+    </style>
+
+
+    <!--base fill width style-->
+    <style name="BaseFillWidthStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--my button style-->
+    <style name="MyButtonStyle" parent="BaseWrapContentStyle">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <!-- Layout for setting -->
+    <style name="BaseFillWidthStyle.SettingItemLayout" parent="BaseFillWidthStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:minHeight">?attr/listPreferredItemHeightLarge</item>
+        <item name="android:paddingTop">@dimen/dimen_12dp</item>
+        <item name="android:paddingBottom">@dimen/dimen_12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="BaseWrapContentStyle">
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:paddingTop">@dimen/text_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="BaseFillWidthStyle.WrapperSettingLayout" parent="BaseFillWidthStyle.SettingItemLayout">
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ImageViewSettingStyle" parent="BaseWrapContentStyle">
+        <item name="android:layout_marginStart">@dimen/card_margin</item>
+    </style>
+
+    <style name="DetailSettingLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/card_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="SubTitleStyle" parent="BaseWrapContentStyle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#111111</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+    </style>
+
+
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="drawable_margin">8dp</dimen>
+</resources>

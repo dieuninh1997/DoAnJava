@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/BaseFillWidthStyle"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/BaseFillWidthStyle"
+            android:layout_marginBottom="@dimen/dimen_12dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                style="@style/BaseFillWidthStyle"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextStyle"
+                    android:text="@string/video_settings" />
+
+                <LinearLayout style="@style/BaseFillWidthStyle.WrapperSettingLayout">
+                    <!--File name format-->
+                    <LinearLayout
+                        android:id="@+id/btnFileNameFormat"
+                        style="@style/BaseFillWidthStyle.SettingItemLayout">
+
+                        <ImageView
+                            style="@style/ImageViewSettingStyle"
+                            android:src="@drawable/ic_insert_drive_file_black_24dp" />
+
+                        <LinearLayout style="@style/DetailSettingLayout">
+
+                            <TextView
+                                style="@style/SubTitleStyle"
+                                android:text="@string/file_name_format" />
+
+                            <TextView
+                                android:id="@+id/txtFileNameFormat"
+                                style="@style/BaseWrapContentStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--choose directory-->
+                    <LinearLayout
+                        android:id="@+id/btnChooseDirectory"
+                        style="@style/BaseFillWidthStyle.SettingItemLayout">
+
+                        <ImageView
+                            style="@style/ImageViewSettingStyle"
+                            android:src="@drawable/ic_folder_24dp" />
+
+                        <LinearLayout style="@style/DetailSettingLayout">
+
+                            <TextView
+                                android:id="@+id/txtDirectoryPath"
+                                style="@style/SubTitleStyle"
+                                android:text="Storage/MOVIES" />
+
+                            <TextView
+                                style="@style/BaseWrapContentStyle"
+                                android:text="@string/directory_hold_video" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

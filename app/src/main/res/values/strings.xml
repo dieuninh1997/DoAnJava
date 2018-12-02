@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppTrimVideo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Trim Video</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="delete_video">Delete video</string>
+    <string name="delete_message">Do you want to delete video\n</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="directory_hold_video">Select recording folder location</string>
+    <string name="video_settings">Video Settings</string>
+    <string name="file_name_format">File name format</string>
+    <string name="feed_back">Feedback</string>
+    <string name="share_app">Share this app</string>
+    <string name="trim_video">Trim Video</string>
+    <string name="add_video">Add Video</string>
+    <string name="video_trimmer">Video Trimmer</string>
+    <string name="need_allow">Need allow permission to application can use!</string>
+</resources>

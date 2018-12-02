@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#4DB6AC</color>
+
+
+    <!---->
+    <color name="colorWindow">#F1F1F1</color>
+    <color name="videoInfo">#80000000</color>
+    <color name="previewStroke">#b4b1b1</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
